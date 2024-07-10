@@ -1,3 +1,4 @@
 -r requirements_dev.txt
 pytest-homeassistant-custom-component==0.12.29
 pytest-asyncio
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
